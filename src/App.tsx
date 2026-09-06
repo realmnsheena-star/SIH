@@ -32,7 +32,7 @@ function App() {
             <Velaris
               bg="#020617"
               colors={['#0f172a', '#1d4ed8', '#2563eb', '#06b6d4']}
-              speed={0.7}
+              speed={3}
               grain={0.15}
               height="100vh"
             />

@@ -78,8 +78,7 @@ export function HomePage() {
                   onChange={setInput}
                   onSubmit={handleAnalyze}
                   placeholder={t('hero.inputPlaceholder')}
-                  showSubmit
-                  submitLabel={t('hero.analyze')}
+                  showSubmit={false}
                   multiline
                   ariaLabel="Product description input"
                 />

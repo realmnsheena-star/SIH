@@ -56,7 +56,7 @@ void main() {
   vec2 p = uv - 0.5;
   p.x *= ratio;
 
-  float t = u_time * 0.1;
+  float t = u_time * 0.5;
 
   float n1 = snoise(p * 0.4 + vec2(t * 0.2, -t * 0.3));
   float n2 = snoise(p * 0.55 + vec2(-t * 0.15, t * 0.25) + n1 * 0.25);
